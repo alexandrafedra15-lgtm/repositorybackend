@@ -4,5 +4,11 @@
   "main": "index.js",
   "author": "Alexandra Fedra <alexandrafedra15@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.6"
+  }
 }
