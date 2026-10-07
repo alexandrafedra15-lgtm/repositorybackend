@@ -10,6 +10,6 @@ const server = http.createServer(requestController)
 
 const PORT = process.env.PORT || 10000
 
-server.listen(PORT, function(){
+server.listen(PORT, '0.0.0.0', function(){
     console.log("Aplicacion corriendo en: " + PORT)
 })
